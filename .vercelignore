@@ -1,0 +1,5 @@
+# Exclude large build caches and python deps vendored by Vercel automatically
+node_modules
+.next/cache
+**/*.ipynb
+**/.DS_Store
